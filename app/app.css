@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+	--breakpoint-sm: 420px;
+	--breakpoint-md: 768px;
+	--breakpoint-mdlg: 1000px;
+	--breakpoint-lg: 1280px;
+  --breakpoint-xl: 1440px;
+	--font-sans:
+		"Lato", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html,
+body {
+	/* @apply bg-gray-900 text-white; */
+
+	/* @media (prefers-color-scheme: dark) {
+		color-scheme: dark;
+	} */
+}
+
+button {
+	@apply cursor-pointer;
+}
